@@ -3,4 +3,5 @@
    
     Higashikata Josuke
     nami robot 
-    1nm = 1*10e-9 
+    1nm = 1*10e-9 m
+    cannot heal anything
