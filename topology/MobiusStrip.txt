@@ -1,0 +1,3 @@
+x = (R + v·w·cos(u/2))·cos(u)
+y = (R + v·w·cos(u/2))·sin(u)
+z = v·w·sin(u/2)

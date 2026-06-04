@@ -1,0 +1,4 @@
+x = (r + c * sv - s * s2) * Cos(u)
+y = (r + c * sv - s * s2) * Sin(u)
+z = s * sv + c * s2
+d = 1 / (z * 0.03 + 5)

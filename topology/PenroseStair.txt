@@ -1,0 +1,4 @@
+For u ∈ [0, 2π), v ∈ [0, 2π):
+x(u, v) = (r + cos(u/2)*sin(v) - sin(u/2)*sin(2v)) * cos(u)
+y(u, v) = (r + cos(u/2)*sin(v) - sin(u/2)*sin(2v)) * sin(u)
+z(u, v) = sin(u/2)*sin(v) + cos(u/2)*sin(2v)   
