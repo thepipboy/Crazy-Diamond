@@ -111,14 +111,14 @@ Module FractalEnum
         Dim angle = 0, x = 40, y = 20
         For Each c In current
             If c = "F" Then
-                Dim nx = x + Math.Cos(angle) * 2
-                Dim ny = y + Math.Sin(angle) * 1.5
+                Dim nx = x + Cos(angle) * 2
+                Dim ny = y + Sin(angle) * 1.5
                 Try : Console.SetCursorPosition(CInt(nx), CInt(ny)) : Console.Write("*") : Catch : End Try
                 x = nx : y = ny
             ElseIf c = "+" Then
-                angle += Math.PI / 3
+                angle += PI / 3
             ElseIf c = "-" Then
-                angle -= Math.PI / 3
+                angle -= PI / 3
             End If
         Next
     End Sub
