@@ -60,7 +60,9 @@ Function t2
     cos(www + k)
 End Function
 End Sub
-
+Declare Module l{}
+Declare Module m{}
+Declare Module n{}
 Sub lmn
 Function t3
     int32_t
