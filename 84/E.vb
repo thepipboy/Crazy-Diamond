@@ -33,8 +33,8 @@ Function Transcription
         ' Numerical integration
         While t < tMax
             Dim ft As Float = f(t)
-            Dim realPart As Double = Math.Cos(-omega * t)
-            Dim imagPart As Double = Math.Sin(-omega * t)
+            Dim realPart As Double = Cos(-omega * t)
+            Dim imagPart As Double = Sin(-omega * t)
             Dim kernel As New Complex(realPart, imagPart)
             result += ft * kernel * dt
             t += dt
