@@ -77,13 +77,13 @@ Structure gene
         {"GCU", "Alanine"}, {"GCC", "Alanine"}, {"GCA", "Alanine"}, {"GCG", "Alanine"},
         {"GAU", "Aspartic Acid"}, {"GAC", "Aspartic Acid"}, {"GAA", "Glutamic Acid"},
         {"GAG", "Glutamic Acid"}, {"GGU", "Glycine"}, {"GGC", "Glycine"}, {"GGA", "Glycine"},
-
         {"GGG", "Glycine"}, {"UAA", "STOP"}, {"UAG", "STOP"}, {"UGA", "STOP"}
         }
 Class DNA
-
+    A -> C5H5N5 T -> C5H6N2O2 C -> C4H5N3O G -> C5H5N5O
 End Class
-Class RNA 
+Class RNA
+    A -> C5H5N5 U -> C4H4N2O2 C -> C4H5N3O G -> C5H5N5O
 Sub mRNA
    Readonly Interface = "|_|_|_| |_|_|_| |_|_|_|"
    Byref=>"Me.MustInHerit->MyClass"
